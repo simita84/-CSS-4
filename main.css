@@ -55,7 +55,7 @@
 #main_content{
 	background-color: black;
 	color: white;
-	height: auto;
+	height: 980px;
 	padding-left: 20px;
 }
 #main_image{
@@ -95,17 +95,17 @@
 	margin: 18px;
 }
 #subsection_container{
-	margin:10px; 
 	width:915px;	
 }
 .sub_section{
 	border: 2px solid white;
 	background-color: white;
 	display: inline-block;
-	height: 255px;
+	height: 265px;
 	width: 205px;
-	margin: 8px;
+	margin-top: 13px;
 	vertical-align: top;
+	margin-left: 15px;
 }
 .sub_section h3{
 	 background-color: orange;
@@ -132,4 +132,21 @@
     color: black;
     height: 20px;
     margin-left: 120px;
+}
+#small_banner{
+	width: 800px;
+	height: 10px;
+	margin-left: 15px;
+	margin-top: 2px;
+	margin-bottom: 5px;
+}
+#small_banner img{
+	width: 100px;
+	height: 20px;
+}
+#small_banner p{
+	width: 300px;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 12px;
 }
