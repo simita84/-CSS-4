@@ -6,23 +6,18 @@
 #wrapper{
 	width: 980px;
 	margin: 0px auto;	
-	background-color: #E6EBF0;
-	 
+	background-color: #E6EBF0;	 
 }
-
 #top_banner{
-	border: 2px solid black;
 	height: 50px;
-
+	border-bottom: 1px solid grey;
 }
- 
 #top_banner img{
 	width: 300px;
 	height:40px; 
     display: inline-block;
     vertical-align: top;
     margin-top:10px; 
- 
 } 
 #top_banner h1{
 	display: inline-block;
@@ -35,6 +30,7 @@
 }
 #top_navigation{
 	height: 30px;
+	margin-bottom: 10px;
 }
 #top_navigation ul{
 	list-style-type: none;
@@ -96,4 +92,45 @@
 	background-color:black;
 	margin: 18px;
 	font-size: 12px;
+}
+#subsection_container{
+	margin:10px; 
+	width:915px;	
+
+}
+.sub_section{
+	width: 205px;
+	height: 255px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 8px;
+	border: 2px solid white;
+	background-color: white;
+}
+.sub_section h3{
+	 font-size: 12px;
+	 background-color: orange;
+	 color: black;
+	 padding: 2px;
+}
+.sub_section p{
+	 font-size: 10px;
+	 color: white;
+	 color: black;
+	 width:198px;
+	 height: 115px;
+	 padding: 2px;
+}
+.sub_section img{
+	width: 205px;
+	height: 100px;
+}
+.sub_section p a{
+    width:40px;
+    height: 20px;
+    background-color: #FFCC66;
+    border: 2px solid black;
+    margin-left: 120px;
+	font-size:10px; 
+    color: black;
 }
